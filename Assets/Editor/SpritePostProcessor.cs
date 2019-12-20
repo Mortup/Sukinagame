@@ -16,7 +16,6 @@ public class SpritePostProcessor : AssetPostprocessor
 		tis.spritePixelsPerUnit = PPU;
         tis.filterMode = FilterMode.Point;
         tis.mipmapEnabled = false; 
-        tis.spriteMode = (int)SpriteImportMode.Single;
         tis.wrapMode = TextureWrapMode.Clamp;
 
 		textureImporter.SetTextureSettings (tis);
