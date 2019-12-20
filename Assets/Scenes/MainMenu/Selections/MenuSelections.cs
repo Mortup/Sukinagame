@@ -23,6 +23,6 @@ public class MenuSelections : MonoBehaviour
             currentIndex++;
         }
 
-        currentIndex = (4 + currentIndex) % 4;
+        currentIndex = (3 + currentIndex) % 3;
     }
 }
