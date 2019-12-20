@@ -2161,8 +2161,8 @@ GameObject:
   - component: {fileID: 1419308806}
   - component: {fileID: 1419308809}
   - component: {fileID: 1419308810}
-  - component: {fileID: 1419308811}
   - component: {fileID: 1419308808}
+  - component: {fileID: 1419308811}
   m_Layer: 0
   m_Name: Nave
   m_TagString: Untagged
@@ -2309,12 +2309,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1419308805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d310ac79840584282b21be2506d70c, type: 3}
+  m_Script: {fileID: 11500000, guid: fa1681e2cf41e8748ba930b8ef7f49ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
+  firstDialogSet:
   - Se acabo la bateria solar.
   - Hay que esperar a que se cargue...
+  secondDialogSet:
+  - CARGANDO...
+  cycleSets: 0
 --- !u!1 &1682592601
 GameObject:
   m_ObjectHideFlags: 0

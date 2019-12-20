@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class DialogueBlock : MonoBehaviour, EventBlock
 {
-    private static bool showInteractPrompt;
+    public static bool showInteractPrompt;
 
     [SerializeField] private string[] texts;
 
