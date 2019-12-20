@@ -2316,7 +2316,7 @@ MonoBehaviour:
   - Se acabo la bateria solar.
   - Hay que esperar a que se cargue...
   secondDialogSet:
-  - CARGANDO...
+  - <font="robot"><size=70%>CARGANDO...</size></font>
   cycleSets: 0
 --- !u!1 &1682592601
 GameObject:
@@ -2612,16 +2612,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796344275}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 2116390084}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.48, y: -15.61}
+  m_AnchoredPosition: {x: 9.629999, y: -5.76}
   m_SizeDelta: {x: 2.25, y: 2.4375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796344279
@@ -3256,6 +3256,7 @@ Transform:
   - {fileID: 1962287396}
   - {fileID: 155226877}
   - {fileID: 273791687}
+  - {fileID: 1796344278}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
