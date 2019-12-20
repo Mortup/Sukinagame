@@ -131,7 +131,6 @@ GameObject:
   - component: {fileID: 23749243}
   - component: {fileID: 23749245}
   - component: {fileID: 23749244}
-  - component: {fileID: 23749246}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -194,25 +193,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23749242}
   m_CullTransparentMesh: 0
---- !u!95 &23749246
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 23749242}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: be9519921c50acc4c9d58b9acd70bb65, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &221901216
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,10 +280,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selections:
-  - {fileID: 21300000, guid: f4b86c4894339ff4cba4012f51d19b32, type: 3}
-  - {fileID: 21300000, guid: 5cd0a0cc5c7ddd240b7dedec81779196, type: 3}
-  - {fileID: 21300000, guid: 04fc942461f826c4489d17cc81e006c8, type: 3}
-  - {fileID: 21300000, guid: 823153d8f264e384b8c1b3b6304972f7, type: 3}
+  - {fileID: 21300000, guid: f54af5135e039904e8b7f8c242f6d87c, type: 3}
+  - {fileID: 21300000, guid: ceb219b7c2899514f8370a22286ae0b3, type: 3}
+  - {fileID: 21300000, guid: 4fdf53e20d043ca47881f0771cff4721, type: 3}
 --- !u!1 &305883054
 GameObject:
   m_ObjectHideFlags: 0
