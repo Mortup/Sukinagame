@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MenuSelections : MonoBehaviour
 {
@@ -24,5 +26,17 @@ public class MenuSelections : MonoBehaviour
         }
 
         currentIndex = (3 + currentIndex) % 3;
+		
+		if (Input.GetButtonDown("Interact")) {
+			if (currentIndex == 0) {
+                FindObjectOfType<Fader>().FadeToBlack();
+                StartCoroutine(ChangeSceneCoroutine("1_Outside", 3f));
+			}
+		}
+    }
+
+    public IEnumerator ChangeSceneCoroutine(string sceneName, float seconds) {
+        yield return new WaitForSeconds(seconds);
+        SceneManager.LoadScene(sceneName);
     }
 }

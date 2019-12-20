@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Fader : MonoBehaviour
 {
     [SerializeField] private Color startColor = Color.clear;
+    [SerializeField] private bool fadeFromBlackAtStart = false;
 
     private Image image;
     private const float defaultFadeTime = 2f;
@@ -26,6 +27,12 @@ public class Fader : MonoBehaviour
         _instance = this;
         image = GetComponent<Image>();
         image.color = startColor;
+    }
+
+    private void Start() {
+        if (fadeFromBlackAtStart) {
+            FadeFromBlack();
+        }
     }
 
     public void Fade(Color startColor, Color endColor, float time) {
