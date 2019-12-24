@@ -30,7 +30,7 @@ public class MenuSelections : MonoBehaviour
 		if (Input.GetButtonDown("Interact")) {
 			if (currentIndex == 0) {
                 FindObjectOfType<Fader>().FadeToBlack();
-                StartCoroutine(ChangeSceneCoroutine("1_Outside", 3f));
+                StartCoroutine(ChangeSceneCoroutine("Intro", 3f));
 			}
 		}
     }

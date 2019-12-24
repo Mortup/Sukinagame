@@ -10,13 +10,14 @@ public class DialogManager : MonoBehaviour
 
     
 
-    public IEnumerator ShowText(string[] texts) {
+    public IEnumerator ShowText(string[] texts, bool autoContinue = false, float timeToContinue=0f) {
         UISounds.instance.PlayBlipSelect();
         dialogContainer.SetActive(true);
         text.text = "";
         yield return new WaitForSeconds(0.05f);
 
         for (int i = 0; i < texts.Length; i++) {
+            float remainingAutoTime = timeToContinue;
 
             string currentDialog = texts[i];
             for (int j = 0; j < currentDialog.Length; j++) {
@@ -40,7 +41,7 @@ public class DialogManager : MonoBehaviour
                 text.text = currentDialog.Substring(0, j);
 
                 while (remainingTime > 0f) {
-                    if (Input.GetButtonDown("Interact")) {
+                    if (Input.GetButtonDown("Interact") && autoContinue == false) {
                         UISounds.instance.PlayBlipSelect();
                         yield return null;
                         j = currentDialog.Length;
@@ -53,6 +54,15 @@ public class DialogManager : MonoBehaviour
             text.text = currentDialog;
 
             while (true) {
+                if (autoContinue) {
+                    if (remainingAutoTime <= 0f) {
+                        break;
+                    }
+                    else {
+                        remainingAutoTime -= Time.deltaTime;
+                    }
+                }
+
                 if (Input.GetButtonDown("Interact")) {
                     UISounds.instance.PlayBlipSelect();
                     yield return null;
