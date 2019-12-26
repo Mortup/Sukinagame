@@ -9,6 +9,10 @@ public class DialogosCinematica : MonoBehaviour
     [SerializeField] private float timeToChangeScene;
     private DialogManager dialogManager;
 
+    private void Awake() {
+        DontDestroyOnLoad(GameObject.FindGameObjectWithTag("IntroMusic"));
+    }
+
     private void Start() {
         dialogManager = FindObjectOfType<DialogManager>();
 
@@ -21,7 +25,7 @@ public class DialogosCinematica : MonoBehaviour
 
     private IEnumerator ShowTexts() {
         for (int i = 0; i < texts.Length; i++) {
-            yield return StartCoroutine(dialogManager.ShowText(new string[] { texts[i] }, true, 1f));
+            yield return StartCoroutine(dialogManager.ShowText(new string[] { texts[i].Replace("\\n", "\n") }, true, 1f));
         }
     }
 
@@ -34,7 +38,7 @@ public class DialogosCinematica : MonoBehaviour
             timeToChangeScene -= Time.deltaTime;
         }
         else {
-            SceneManager.LoadScene("1_Outside");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }
