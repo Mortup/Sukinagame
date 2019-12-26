@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 5845990571260312069}
   - component: {fileID: 5845990571260312068}
   - component: {fileID: 5845990571260312091}
+  - component: {fileID: 8927100874551511789}
   m_Layer: 0
   m_Name: Iro
   m_TagString: Untagged
@@ -428,3 +429,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorTransitionSpeed: 0.4
+--- !u!114 &8927100874551511789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5845990571260312076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680cd1b4d702d4f4c9343dfd4f25efa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clonPrefab: {fileID: 0}

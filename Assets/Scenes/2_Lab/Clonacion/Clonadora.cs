@@ -1,15 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using TMPro;
 
 public class Clonadora : MonoBehaviour
 {
+    [SerializeField] private TMP_Text screen;
+
     private void OnTriggerEnter2D(Collider2D collision) {
-        Debug.Log("Entro algo");
         IClonable clonable = collision.gameObject.GetComponent<IClonable>();
         if (clonable == null)
             return;
 
-        Debug.Log(clonable.getName());
+        screen.text = clonable.getName();
     }
 }
