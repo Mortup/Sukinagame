@@ -471,17 +471,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - 'M63 10 A. Tripulante: iro.'
-  - Nuevo planeta objetivo:\nIRIDIUM 3
-  - Mision:\nEstablecer contacto.
-  - Preparandose para el aterrizaje.
+  - '<font=robot>M63 10 A. Tripulante: iro.</font>'
+  - <font=robot>Nuevo planeta objetivo:\nIRIDIUM 3</font>
+  - <font=robot>Mision:\nEstablecer contacto</font>
+  - <font=robot>Preparandose para el aterrizaje</font>
   times:
   - 2
   - 2
   - 2
   - 2
   timeToChangeScene: 15.5
-  musicSource: {fileID: 1795864609}
 --- !u!1 &1795864608
 GameObject:
   m_ObjectHideFlags: 0
