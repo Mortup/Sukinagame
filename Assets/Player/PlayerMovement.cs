@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
     private CircleCollider2D collider;
+    private Rigidbody2D rb;
 
     public Vector2 cinematicInput;
     public bool movementLocked;
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
         collider = GetComponent<CircleCollider2D>();
         movementLocked = false;
         cinematicInput = Vector2.zero;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update() {
@@ -58,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("speed", 0f);
         }
         else {
-            transform.Translate(input.normalized * Time.deltaTime * speed);
+            rb.MovePosition((Vector2)transform.position + input.normalized * Time.deltaTime * speed);
             animator.SetFloat("speed", input.magnitude);
         }
     }
