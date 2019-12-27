@@ -30,6 +30,13 @@ public class PlayerInteraction : MonoBehaviour {
             }
         }
 
+        if (Input.GetButtonDown("InteractSecondary")) {
+            EventBlock[] blocks = GetSecondaryBlocks();
+            if (blocks.Length > 0) {
+                StartCoroutine(ActivateBlocks(blocks));
+            }
+        }
+
     }
 
     private RaycastHit2D[] GetCollidersInFront() {
@@ -56,8 +63,34 @@ public class PlayerInteraction : MonoBehaviour {
         return new EventBlock[0];
     }
 
+    private EventBlock[] GetSecondaryBlocks() {
+        RaycastHit2D[] hits = GetCollidersInFront();
+        for (int i = 0; i < hits.Length; i++) {
+            RaycastHit2D hit = hits[i];
+
+            if (hit.collider.gameObject == gameObject) {
+                continue;
+            }
+
+            SecondaryInteraction secondary = hit.collider.gameObject.GetComponent<SecondaryInteraction>();
+            if (secondary == null)
+                continue;
+
+            EventBlock[] blocks = secondary.GetBlocks();
+            if (blocks.Length > 0) {
+                return blocks;
+            }
+        }
+
+        return new EventBlock[0];
+    }
+
     public bool IsInteractionAvailable() {
         return GetTargetedBlocks().Length > 0;
+    }
+
+    public bool IsSecondaryInteracionAvailable() {
+        return GetSecondaryBlocks().Length > 0;
     }
 
     public IEnumerator ActivateBlocks(EventBlock[] blocks) {
