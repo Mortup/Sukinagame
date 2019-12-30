@@ -50,12 +50,13 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D[] hit = Physics2D.CircleCastAll(colliderCenter, collider.radius / 2f, input.normalized, collider.radius / 2f);
 
         bool canWalk = true;
+        /**
         for (int i = 0; i < hit.Length; i++) {
             if (hit[i].transform.gameObject != gameObject) {
                 canWalk = false;
                 break;
             }
-        }
+        }**/
         if (canWalk == false) {
             animator.SetFloat("speed", 0f);
         }

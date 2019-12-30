@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 3feedeae18b21a0418ec54e8bf440727
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2867538471398988156
+    second: clonDark_0
+  - first:
+      213: -6954222363298431584
+    second: clonDark_1
+  - first:
+      213: -929962952866683419
+    second: clonDark_2
+  - first:
+      213: 7788852254893131712
+    second: clonDark_3
+  - first:
+      213: 7108627974530450214
+    second: clonDark_4
+  - first:
+      213: -5052603366657197120
+    second: clonDark_5
+  - first:
+      213: -4805975453371248852
+    second: clonDark_6
+  - first:
+      213: 8293537654457074816
+    second: clonDark_7
+  - first:
+      213: 5221764745032063201
+    second: clonDark_8
+  - first:
+      213: 8837933406307880699
+    second: clonDark_9
+  - first:
+      213: 1180774461127856063
+    second: clonDark_10
+  - first:
+      213: 2878808027314255141
+    second: clonDark_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +106,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: clonDark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af7d01b64247de43ae6ed91e5bf3430
+      internalID: 2867538471398988156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9beec0ea1242f5c4ab62b8c99c5c4d3d
+      internalID: -6954222363298431584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e62dbb7c5dd90438701625d10d189b
+      internalID: -929962952866683419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dac1b93bc9cc644a32522e0f4a5d6a
+      internalID: 7788852254893131712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd732767525ea7a41ab99ac9113d9360
+      internalID: 7108627974530450214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba45923f9de68f4e9f954e91d11f707
+      internalID: -5052603366657197120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85c805bd47b7184a9bb3442cb0e7717
+      internalID: -4805975453371248852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46025dd709bc89c4db28d875fd1796c0
+      internalID: 8293537654457074816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd7df1715d7bf54497df5f3bda29a5a
+      internalID: 5221764745032063201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21770881a946543458dac8b23f5fd256
+      internalID: 8837933406307880699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70802274f481674bb8fdf63d8a0c774
+      internalID: 1180774461127856063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clonDark_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69895f83e6da93e4096cb6b8d5426349
+      internalID: 2878808027314255141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

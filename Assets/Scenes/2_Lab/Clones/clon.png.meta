@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: c66ccde84c3b11e41b042d805decf7a8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4121341485086153591
+    second: clon_0
+  - first:
+      213: -3656450581022939890
+    second: clon_1
+  - first:
+      213: -6104652307591316315
+    second: clon_2
+  - first:
+      213: 1077725009913891409
+    second: clon_3
+  - first:
+      213: -4001647287631440077
+    second: clon_4
+  - first:
+      213: 8648594699423012407
+    second: clon_5
+  - first:
+      213: -151122702016049644
+    second: clon_6
+  - first:
+      213: 7224272308706249800
+    second: clon_7
+  - first:
+      213: 2766724725832434762
+    second: clon_8
+  - first:
+      213: -2412028437610573509
+    second: clon_9
+  - first:
+      213: 9020410697593781561
+    second: clon_10
+  - first:
+      213: -8083269676056368802
+    second: clon_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +106,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: clon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4f772585eb6734f92e9cd85a6d571f
+      internalID: -4121341485086153591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feaddaa749789042830da471432fe76
+      internalID: -3656450581022939890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3fd6de7512d914b9670894d47c63eb
+      internalID: -6104652307591316315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 57.333336
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae483b4bde37cf4aab8bab2d785c3e5
+      internalID: 1077725009913891409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3b19d31d495814bab2a635921ead31
+      internalID: -4001647287631440077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc3eb660b72f504eb849a3c23866208
+      internalID: 8648594699423012407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e970998300a8c4388a07b4c8fb8642
+      internalID: -151122702016049644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 29.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e67c8d3a0d577e45837ba47f2b75873
+      internalID: 7224272308706249800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e7bddc3cb9f3c44aa6cdc03fbb1f4b
+      internalID: 2766724725832434762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c0161b177d4aa4aaa00147752b61a9
+      internalID: -2412028437610573509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96758f04f503d4408cb2e9b3d570ad9
+      internalID: 9020410697593781561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clon_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1.333334
+        width: 15
+        height: 28.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7465a286c056af04bb3d23d720f73755
+      internalID: -8083269676056368802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
