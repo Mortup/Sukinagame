@@ -31,6 +31,10 @@ public class LightManager : MonoBehaviour
         }
     }
 
+    public bool AreLightsOn() {
+        return lightsOn;
+    }
+
     private void Start() {
         TurnOffLights();
     }
