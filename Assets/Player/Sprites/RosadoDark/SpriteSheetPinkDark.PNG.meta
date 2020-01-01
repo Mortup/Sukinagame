@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: f52125da0dac3f3418a2aa531c326bfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5145762573609200016
+    second: SpriteSheetPinkDark_0
+  - first:
+      213: -6149910700764066036
+    second: SpriteSheetPinkDark_1
+  - first:
+      213: -676279675630676663
+    second: SpriteSheetPinkDark_2
+  - first:
+      213: 7036421661343172831
+    second: SpriteSheetPinkDark_3
+  - first:
+      213: 7716926876541917054
+    second: SpriteSheetPinkDark_4
+  - first:
+      213: 5952554282242768364
+    second: SpriteSheetPinkDark_5
+  - first:
+      213: -2645732001973624461
+    second: SpriteSheetPinkDark_6
+  - first:
+      213: 6782876330911015544
+    second: SpriteSheetPinkDark_7
+  - first:
+      213: -3224096743231357037
+    second: SpriteSheetPinkDark_8
+  - first:
+      213: 6813613898755163746
+    second: SpriteSheetPinkDark_9
+  - first:
+      213: 7705846416653464516
+    second: SpriteSheetPinkDark_10
+  - first:
+      213: 7829232271320496451
+    second: SpriteSheetPinkDark_11
+  - first:
+      213: -7634964421005826620
+    second: SpriteSheetPinkDark_12
+  - first:
+      213: 3030232672808660791
+    second: SpriteSheetPinkDark_13
+  - first:
+      213: 409671969779167806
+    second: SpriteSheetPinkDark_14
+  - first:
+      213: -688332110439710286
+    second: SpriteSheetPinkDark_15
+  - first:
+      213: 8811514387747188185
+    second: SpriteSheetPinkDark_16
+  - first:
+      213: 4367286938761786029
+    second: SpriteSheetPinkDark_17
+  - first:
+      213: -6410076871780594380
+    second: SpriteSheetPinkDark_18
+  - first:
+      213: 6869904142833802160
+    second: SpriteSheetPinkDark_19
+  - first:
+      213: -3662774023354685773
+    second: SpriteSheetPinkDark_20
+  - first:
+      213: 8833443591676755074
+    second: SpriteSheetPinkDark_21
+  - first:
+      213: -1867489688665851159
+    second: SpriteSheetPinkDark_22
+  - first:
+      213: 7978846326992292651
+    second: SpriteSheetPinkDark_23
+  - first:
+      213: -6119797918967204318
+    second: SpriteSheetPinkDark_24
+  - first:
+      213: -3259659036796572454
+    second: SpriteSheetPinkDark_25
+  - first:
+      213: -8656451361543770195
+    second: SpriteSheetPinkDark_26
+  - first:
+      213: -8357714625607125866
+    second: SpriteSheetPinkDark_27
+  - first:
+      213: -5161862462642072520
+    second: SpriteSheetPinkDark_28
+  - first:
+      213: 7561283368536944620
+    second: SpriteSheetPinkDark_29
+  - first:
+      213: 2870631550609261850
+    second: SpriteSheetPinkDark_30
+  - first:
+      213: -3536145042989363570
+    second: SpriteSheetPinkDark_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8ce181e2b64914bac19fa25644cc2a
+      internalID: 5145762573609200016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bfbdca8523cc143b3b41ba8e93bdaa
+      internalID: -6149910700764066036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dd6177e3318e247ad0a0e911808d7b
+      internalID: -676279675630676663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243bef0a43e9d2b458bb464cccb0b191
+      internalID: 7036421661343172831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a91f4d2b9bb034981cff7a003c9028
+      internalID: 7716926876541917054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad768d7d2f7bc84c8bf2a4b6d088623
+      internalID: 5952554282242768364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a6d9a50ab7079468e07012e339fc51
+      internalID: -2645732001973624461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 96
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c541f2d36df034e89a0f4cc6c912a8
+      internalID: 6782876330911015544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb132b12a1ca72449aa6dbf99701577
+      internalID: -3224096743231357037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937d6f22e5233b44a9b5e704ebaaa4bf
+      internalID: 6813613898755163746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a423f2d62f66d5e469090fb5ceaa59a8
+      internalID: 7705846416653464516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7304755ae61b6f043acbf936e7c16af6
+      internalID: 7829232271320496451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cc3ebe9730d92488fa0888cc85ae31
+      internalID: -7634964421005826620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50acb28fc4e14d94bae74a3b19946daa
+      internalID: 3030232672808660791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_14
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617ed29a6e5dc394cb0c6146fa0827f1
+      internalID: 409671969779167806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 64
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e0eeae7c76f1340a863f23599a0aac
+      internalID: -688332110439710286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2592adee927a5774bb81142afea16435
+      internalID: 8811514387747188185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e5171799ecfba4fa6c09c238029228
+      internalID: 4367286938761786029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d044aba781bf1e4a8f7327b6d5bcff6
+      internalID: -6410076871780594380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_19
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bcdfe82c2b44741bbc512b143c1760
+      internalID: 6869904142833802160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2368116050f1fb44ab3c92b12dc99934
+      internalID: -3662774023354685773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350e0ac193e7d844c853f91d9b370df5
+      internalID: 8833443591676755074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726c66554bdb6f14d9223cccc0d7bb94
+      internalID: -1867489688665851159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 32
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16913df5ac5b19e4398dd44592528d4d
+      internalID: 7978846326992292651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bae641be9bc28c4ebc300c74f75a184
+      internalID: -6119797918967204318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d93bed62a9fafe4ca192b05ae3b62ee
+      internalID: -3259659036796572454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417a13296438f2841817492ca781bb3b
+      internalID: -8656451361543770195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd8f22afff337243be71550c05a910d
+      internalID: -8357714625607125866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bc94f9daf632e4888172ecce304253
+      internalID: -5161862462642072520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb4b384e5e6fbb4e9aa962ba975d2b8
+      internalID: 7561283368536944620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bf169556dffb54daf547852ce5aae7
+      internalID: 2870631550609261850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetPinkDark_31
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de98ba77627c414eb14de974584e8fd
+      internalID: -3536145042989363570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

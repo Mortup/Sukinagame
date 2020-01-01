@@ -9,8 +9,8 @@ public class AffectedByLight : MonoBehaviour
     [SerializeField] RuntimeAnimatorController lightsOnAnimator;
     [SerializeField] RuntimeAnimatorController lightsOffAnimator;
 
-    private SpriteRenderer sr;
-    private Animator animator;
+    protected SpriteRenderer sr;
+    protected Animator animator;
 
     private void Awake() {
         sr = GetComponent<SpriteRenderer>();
@@ -19,7 +19,7 @@ public class AffectedByLight : MonoBehaviour
             animator = GetComponent<Animator>();
     }
 
-    public void TurnOnLight() {
+    public virtual void TurnOnLight() {
         if (changesAnimator) {
             float animTime = animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
             animator.runtimeAnimatorController = lightsOnAnimator;
@@ -30,7 +30,7 @@ public class AffectedByLight : MonoBehaviour
         }
     }
 
-    public void TurnOffLight() {
+    public virtual void TurnOffLight() {
         if (changesAnimator) {
             float animTime = animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
             animator.runtimeAnimatorController = lightsOffAnimator;
