@@ -230,11 +230,11 @@ GameObject:
   - component: {fileID: 133438974}
   - component: {fileID: 133438973}
   - component: {fileID: 133438977}
-  - component: {fileID: 133438976}
   - component: {fileID: 133438978}
   - component: {fileID: 133438979}
   - component: {fileID: 133438980}
   - component: {fileID: 133438981}
+  - component: {fileID: 133438976}
   m_Layer: 2
   m_Name: Silla
   m_TagString: Untagged
@@ -325,8 +325,8 @@ Transform:
   m_Father: {fileID: 1093869946}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &133438976
-CircleCollider2D:
+--- !u!60 &133438976
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -338,9 +338,26 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.9135542}
-  serializedVersion: 2
-  m_Radius: 0.3
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5625, y: 2.625}
+    newSize: {x: 1.5625, y: 2.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15780735, y: -0.67735887}
+      - {x: -0.26310062, y: -0.8197224}
+      - {x: -0.26954174, y: -1.0557234}
+      - {x: -0.16858387, y: -1.156048}
+      - {x: 0.18192005, y: -1.1606438}
+      - {x: 0.2929964, y: -1.0460436}
+      - {x: 0.29154873, y: -0.8143084}
+      - {x: 0.16619396, y: -0.67671037}
 --- !u!50 &133438977
 Rigidbody2D:
   serializedVersion: 4
