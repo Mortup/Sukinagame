@@ -22,6 +22,9 @@ public class Clonadora : MonoBehaviour
     }
 
     public void Clone() {
+        if (lastClonable == null)
+            return;
+
         GameObject clone = Instantiate(lastClonable.getGameObject(), cloneDestination.position, cloneDestination.rotation);
         clone.transform.SetParent(GameObject.FindGameObjectWithTag("Level").transform);
     }
