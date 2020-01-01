@@ -6,9 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float animationsSpeed;
+    [SerializeField] private Animator secondaryAnimator;
 
     private Animator animator;
-    private CircleCollider2D collider;
     private Rigidbody2D rb;
 
     public Vector2 cinematicInput;
@@ -17,10 +17,13 @@ public class PlayerMovement : MonoBehaviour
     private void Awake() {
         animator = GetComponent<Animator>();
         animator.speed = animationsSpeed;
-        collider = GetComponent<CircleCollider2D>();
         movementLocked = false;
         cinematicInput = Vector2.zero;
         rb = GetComponent<Rigidbody2D>();
+
+        if (secondaryAnimator != null) {
+            secondaryAnimator.speed = animationsSpeed;
+        }
     }
 
     private void Update() {
@@ -46,23 +49,13 @@ public class PlayerMovement : MonoBehaviour
         animator.SetInteger("xDirection", xDir);
         animator.SetInteger("yDirection", yDir);
 
-        Vector3 colliderCenter = transform.position + transform.TransformVector(collider.offset);
-        RaycastHit2D[] hit = Physics2D.CircleCastAll(colliderCenter, collider.radius / 2f, input.normalized, collider.radius / 2f);
+        rb.MovePosition((Vector2)transform.position + input.normalized * Time.deltaTime * speed);
+        animator.SetFloat("speed", input.magnitude);
 
-        bool canWalk = true;
-        /**
-        for (int i = 0; i < hit.Length; i++) {
-            if (hit[i].transform.gameObject != gameObject) {
-                canWalk = false;
-                break;
-            }
-        }**/
-        if (canWalk == false) {
-            animator.SetFloat("speed", 0f);
-        }
-        else {
-            rb.MovePosition((Vector2)transform.position + input.normalized * Time.deltaTime * speed);
-            animator.SetFloat("speed", input.magnitude);
+        if (secondaryAnimator != null) {
+            secondaryAnimator.SetInteger("xDirection", xDir);
+            secondaryAnimator.SetInteger("yDirection", yDir);
+            secondaryAnimator.SetFloat("speed", input.magnitude);
         }
     }
 
