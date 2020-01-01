@@ -8102,6 +8102,11 @@ PrefabInstance:
       propertyPath: offset
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5845990571260312064, guid: 67a29a4a0a36ac44a91debca482ad7a7,
+        type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5845990571260312065, guid: 67a29a4a0a36ac44a91debca482ad7a7,
         type: 3}
       propertyPath: m_LocalPosition.x
