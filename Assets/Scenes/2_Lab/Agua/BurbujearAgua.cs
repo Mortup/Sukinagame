@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BurbujearAgua : MonoBehaviour
 {
+    private AudioSource bubbleSource;
     private Animator animator;
 
     private void Awake() {
+        bubbleSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
@@ -14,6 +16,7 @@ public class BurbujearAgua : MonoBehaviour
         LightManager lightManager = FindObjectOfType<LightManager>();
         if (lightManager.AreLightsOn()) {
             animator.SetTrigger("Burbujas");
+            bubbleSource.Play();
         }
     }
 }
