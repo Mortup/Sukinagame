@@ -1,18 +1,16 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ChangeSceneBlock : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class ChangeSceneBlock : MonoBehaviour, EventBlock {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    [SerializeField] string sceneName;
+
+    public IEnumerator Activate() {
+        Fader fader = GameObject.FindObjectOfType<Fader>();
+        fader.FadeToBlack();
+        yield return new WaitForSeconds(3f);
+
+        SceneManager.LoadScene(sceneName);
     }
 }
