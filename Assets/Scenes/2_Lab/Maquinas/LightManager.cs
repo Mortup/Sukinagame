@@ -2,9 +2,14 @@
 
 public class LightManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource turnOnAudio;
+    [SerializeField] private AudioSource turnOffAudio;
     bool lightsOn;
 
     public void TurnOnLights() {
+        if (turnOnAudio != null)
+            turnOnAudio.Play();
+
         lightsOn = true;
 
         AffectedByLight[] targets = FindObjectsOfType<AffectedByLight>();
@@ -14,6 +19,9 @@ public class LightManager : MonoBehaviour
     }
 
     public void TurnOffLights() {
+        if (turnOffAudio != null)
+            turnOffAudio.Play();
+
         lightsOn = false;
 
         AffectedByLight[] targets = FindObjectsOfType<AffectedByLight>();

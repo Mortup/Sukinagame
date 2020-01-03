@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class SwitchAudioVolume : MonoBehaviour
 {
+    [SerializeField] private bool startOn = false;
     private AudioSource audioSource;
 
     private float maxVolume;
-    private float targetVolume = 0f;
-    private bool isOn = false;
+    private float targetVolume;
+    private bool isOn;
 
     private void Awake() {
         audioSource = GetComponent<AudioSource>();
         maxVolume = audioSource.volume;
+
+        targetVolume = startOn ? maxVolume : 0f;
+        isOn = startOn;
     }
 
     private void Start() {
@@ -32,5 +36,15 @@ public class SwitchAudioVolume : MonoBehaviour
         }
 
         isOn = !isOn;
+    }
+
+    public void TurnOn() {
+        targetVolume = maxVolume;
+        isOn = true;
+    }
+
+    public void TurnOff() {
+        targetVolume = 0f;
+        isOn = false;
     }
 }
