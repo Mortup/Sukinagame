@@ -5529,12 +5529,12 @@ GameObject:
   - component: {fileID: 726288802}
   - component: {fileID: 726288810}
   - component: {fileID: 726288800}
+  - component: {fileID: 726288807}
   - component: {fileID: 726288809}
   - component: {fileID: 726288803}
   - component: {fileID: 726288808}
   - component: {fileID: 726288806}
   - component: {fileID: 726288805}
-  - component: {fileID: 726288807}
   - component: {fileID: 726288804}
   m_Layer: 0
   m_Name: CinematicaInicial
@@ -5719,7 +5719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - '!'
+  - '...'
 --- !u!114 &726288804
 MonoBehaviour:
   m_ObjectHideFlags: 0
