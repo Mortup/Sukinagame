@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/PantallaNegra/PantallaNegra.unity
+    guid: b47e14693b2a75f4ba8f7a8fb143ec47
+  - enabled: 1
     path: Assets/Scenes/Intro/Intro.unity
     guid: de257220e38213e49b920acb4ece15db
   - enabled: 1
