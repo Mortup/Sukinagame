@@ -63,6 +63,21 @@ public class ClonMovement : MonoBehaviour
         lastPosition = transform.position;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.GetComponent<PlayerMovement>() == null)
+            return;
+
+        SetNewTarget(collision.gameObject.transform.position);
+    }
+
+    private void OnTriggerStay2D(Collider2D collision) {
+        if (collision.gameObject.GetComponent<PlayerMovement>() == null)
+            return;
+
+        SetNewTarget(collision.gameObject.transform.position);
+    }
+
+
     private void OnCollisionEnter2D(Collision2D collision) {
         SetNewTarget(collision.gameObject.transform.position);
     }
