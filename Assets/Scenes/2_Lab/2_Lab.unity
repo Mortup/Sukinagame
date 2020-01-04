@@ -2966,8 +2966,10 @@ GameObject:
   - component: {fileID: 1336173491}
   - component: {fileID: 1336173492}
   - component: {fileID: 1336173493}
-  - component: {fileID: 1336173496}
   - component: {fileID: 1336173494}
+  - component: {fileID: 1336173496}
+  - component: {fileID: 1336173497}
+  - component: {fileID: 1336173495}
   m_Layer: 0
   m_Name: MaquinaClon
   m_TagString: Untagged
@@ -3105,6 +3107,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionContainer: {fileID: 1868645773}
+--- !u!114 &1336173495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336173489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0856993a6a4450f439f669b1dae3c5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1475597374}
+        m_MethodName: SetNoise
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 704017333}
+        m_MethodName: Clone
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1336173496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3120,17 +3159,30 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 704017333}
-        m_MethodName: Clone
-        m_Mode: 1
+      - m_Target: {fileID: 1475597374}
+        m_MethodName: MoveNoise
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1336173497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336173489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a115e17fd70054bb1e15917dfb98b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 3
 --- !u!1 &1368898042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,6 +3711,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1081194277}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1475597373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6866235105720829330, guid: 4d45da3e6cdee3e4c80a2995eedfbecb,
+    type: 3}
+  m_PrefabInstance: {fileID: 636872165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1475597374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475597373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4af710f97456e4983e08f9555e4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1495035668
 GameObject:
   m_ObjectHideFlags: 0
@@ -4069,6 +4139,28 @@ MonoBehaviour:
   changesAnimator: 0
   lightsOnAnimator: {fileID: 0}
   lightsOffAnimator: {fileID: 0}
+--- !u!1 &1574650796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6866235105108759751, guid: 4d45da3e6cdee3e4c80a2995eedfbecb,
+    type: 3}
+  m_PrefabInstance: {fileID: 636872165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1574650800
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574650796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 1
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1662895150
 GameObject:
   m_ObjectHideFlags: 0
