@@ -6,6 +6,7 @@ public class ClonMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float animationsSpeed;
+    [SerializeField] [Range(0, 1)] private float laughProbability;
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -87,7 +88,7 @@ public class ClonMovement : MonoBehaviour
         Debug.DrawLine(transform.position, transform.position + (Vector3)newDirection * 5f, Color.red, 5f);
         destination = transform.position;
         targetChanging = true;
-        if (audioSource.isPlaying == false) {
+        if (audioSource.isPlaying == false && Random.value < laughProbability) {
             audioSource.pitch = Random.Range(0.9f, 1.1f);
             audioSource.panStereo = Random.Range(0.7f, 1.3f);
             audioSource.Play();
