@@ -9,17 +9,29 @@ public class ClonMovement : MonoBehaviour
 
     private Animator animator;
     private Rigidbody2D rb;
+    private AudioSource audioSource;
 
     Vector2 destination;
     Vector2 lastPosition;
 
+    List<Vector2> directions;
+    int lastDirection;
+
     private void Awake() {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
         destination = transform.position + Vector3.left * 7f;
         lastPosition = transform.position;
 
         animator.speed = animationsSpeed;
+
+        directions = new List<Vector2>();
+        directions.Add(Vector2.left);
+        directions.Add(Vector2.up);
+        directions.Add(Vector2.right);
+        directions.Add(Vector2.down);
+        lastDirection = Random.Range(0, 3);
     }
 
     private void Update() {
@@ -51,30 +63,38 @@ public class ClonMovement : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        SetRandomTarget();
+        SetNewTarget(collision.gameObject.transform.position);
     }
 
     private void OnCollisionStay2D(Collision2D collision) {
-        SetRandomTarget();
+        SetNewTarget(collision.gameObject.transform.position);
     }
 
     bool targetChanging = false;
     float targetCooldown = 0.5f;
     float currentTargetCooldown = 0f;
-    private void SetRandomTarget() {
+    private void SetNewTarget(Vector3 obstaclePosition) {
         if (targetChanging || currentTargetCooldown > 0f)
             return;
 
         currentTargetCooldown = targetCooldown;
-        StartCoroutine(SetRandomTargetCoroutine());
+        StartCoroutine(SetRandomTargetCoroutine(obstaclePosition));
     }
 
-    private IEnumerator SetRandomTargetCoroutine() {
+    private IEnumerator SetRandomTargetCoroutine(Vector3 obstaclePosition) {
+        int newDirectionIndex = (lastDirection + 1) % directions.Count;
+        Vector2 newDirection = directions[Random.Range(0,4)];
+        Debug.DrawLine(transform.position, transform.position + (Vector3)newDirection * 5f, Color.red, 5f);
         destination = transform.position;
         targetChanging = true;
+        if (audioSource.isPlaying == false) {
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.panStereo = Random.Range(0.7f, 1.3f);
+            audioSource.Play();
+        }
         yield return new WaitForSeconds(0.07f);
-        Vector2 direction = Random.insideUnitCircle.normalized;
-        destination = (Vector2)transform.position + direction * Random.Range(5f, 10f);
+        destination = (Vector2)transform.position + newDirection * Random.Range(5f, 10f);
         targetChanging = false;
+        lastDirection = newDirectionIndex;
     }
 }
