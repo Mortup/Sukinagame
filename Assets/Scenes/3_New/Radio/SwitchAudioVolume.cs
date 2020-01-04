@@ -24,7 +24,7 @@ public class SwitchAudioVolume : MonoBehaviour
     }
 
     private void Update() {
-        audioSource.volume = Mathf.Lerp(audioSource.volume, targetVolume, 0.2f);
+        audioSource.volume = Mathf.Lerp(audioSource.volume, targetVolume, 0.08f);
     }
 
     public void SwitchVolume() {
