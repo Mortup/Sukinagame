@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float animationsSpeed;
     [SerializeField] private Animator secondaryAnimator;
+    [SerializeField] private AudioSource stepsSource;
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -51,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.MovePosition((Vector2)transform.position + input.normalized * Time.deltaTime * speed);
         animator.SetFloat("speed", input.magnitude);
+        stepsSource.volume = Mathf.Clamp01(input.magnitude);
 
         if (secondaryAnimator != null) {
             secondaryAnimator.SetInteger("xDirection", xDir);
