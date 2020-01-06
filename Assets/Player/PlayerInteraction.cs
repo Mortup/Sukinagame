@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteraction : MonoBehaviour {
     private PlayerMovement playerMovement;
@@ -15,6 +16,10 @@ public class PlayerInteraction : MonoBehaviour {
     }
 
     private void Update() {
+        if (Input.GetButtonDown("Reiniciar")) {
+            SceneManager.LoadScene("Intro");
+        }
+
         Vector2 input = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         if (input.magnitude > 0.3f) {
             facingDirection = input.normalized;
