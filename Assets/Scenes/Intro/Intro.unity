@@ -482,7 +482,7 @@ MonoBehaviour:
   - 2
   - 2
   - 2
-  timeToChangeScene: 15.5
+  timeToChangeScene: 16.5
 --- !u!1 &1795864608
 GameObject:
   m_ObjectHideFlags: 0
