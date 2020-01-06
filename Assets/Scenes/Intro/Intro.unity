@@ -471,11 +471,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - '<font=robot>M63 10 A. Tripulante: iro.</font>'
-  - <font=robot>Nuevo planeta objetivo:\nIRIDIUM 3</font>
-  - <font=robot>Mision:\nEstablecer contacto</font>
-  - <font=robot>Preparandose para el aterrizaje</font>
+  - '<font=robot>M63 10 A. TRIPULANTE: 1R0-C.</font>'
+  - <font=robot>ANDROIDE DE RECONOCIMIENTO.</font>
+  - <font=robot>NUEVO PLANETA OBJETIVO:\nIRIDIUM 3</font>
+  - <font=robot>MISION:\nESTABLECER CONTACTO</font>
+  - <font=robot>PREPARANDOSE PARA EL ATERRIZAJE</font>
   times:
+  - 2
   - 2
   - 2
   - 2
