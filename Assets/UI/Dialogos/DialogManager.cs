@@ -7,6 +7,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private GameObject dialogContainer;
     [SerializeField] private TMP_Text text;
     [SerializeField] private float textSpeed;
+    [SerializeField] private AudioSource bipbipSource;
 
     
 
@@ -18,6 +19,7 @@ public class DialogManager : MonoBehaviour
 
         for (int i = 0; i < texts.Length; i++) {
             float remainingAutoTime = timeToContinue;
+            bipbipSource.volume = 1f;
 
             string currentDialog = texts[i];
             for (int j = 0; j < currentDialog.Length; j++) {
@@ -53,6 +55,7 @@ public class DialogManager : MonoBehaviour
             }
             text.text = currentDialog;
 
+            bipbipSource.volume = 0f;
             while (true) {
                 if (autoContinue) {
                     if (remainingAutoTime <= 0f) {
@@ -73,6 +76,7 @@ public class DialogManager : MonoBehaviour
             }
         }
 
+        bipbipSource.volume = 0f;
         dialogContainer.SetActive(false);
     }
 }
