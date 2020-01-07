@@ -10,23 +10,27 @@ public class MenuSelections : MonoBehaviour
     [SerializeField] private AudioSource blipSelectSource;
 
     private int currentIndex = 0;
+    private float lastMoved;
 
     private Image image;
 
     private void Awake() {
         image = GetComponent<Image>();
+        lastMoved = Time.time;
     }
 
     private void Update() {
         image.sprite = selections[currentIndex];
 
-        if (Input.GetButtonDown("Up")) {
+        if (Input.GetAxis("Vertical") > 0.8f && Time.time - lastMoved > 0.2f) {
             currentIndex--;
             blipSelectSource.Play();
+            lastMoved = Time.time;
         }
-        if (Input.GetButtonDown("Down")) {
+        if (Input.GetAxis("Vertical") < -0.8f && Time.time - lastMoved > 0.2f) {
             currentIndex++;
             blipSelectSource.Play();
+            lastMoved = Time.time;
         }
 
         currentIndex = (3 + currentIndex) % 3;
