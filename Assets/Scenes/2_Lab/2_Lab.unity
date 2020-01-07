@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -244,12 +244,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -3.014965, y: 1.5191097}
+    - - {x: -2.8669662, y: 0.48311424}
       - {x: -3.0211735, y: -2.96875}
       - {x: 2.84375, y: -2.96875}
       - {x: 2.8509865, y: 0.42344475}
       - {x: -2.38863, y: 0.45619774}
-      - {x: -2.3503494, y: 1.5500221}
+      - {x: -2.3873491, y: 0.4770279}
 --- !u!1 &133438972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2166,12 +2166,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -4.65625, y: 2.96875}
+    - - {x: -4.6192503, y: 1.1187572}
       - {x: -4.65625, y: -0.24482155}
       - {x: 3.6958256, y: -0.29776764}
       - {x: 3.6658354, y: -2.8861732}
       - {x: 4.65625, y: -2.96875}
-      - {x: 4.65625, y: 2.96875}
+      - {x: 4.6192513, y: 1.1557579}
 --- !u!1 &1024292394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,13 +2380,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -2.84375, y: 2.96875}
+    - - {x: -2.7697506, y: 1.0447559}
       - {x: -2.84375, y: -0.96875}
       - {x: -2.739027, y: -1.7328243}
       - {x: 2.2554474, y: -1.7283783}
       - {x: 2.2217636, y: -2.91288}
       - {x: 3.0095444, y: -2.9571228}
-      - {x: 3.0211754, y: 2.96875}
+      - {x: 2.9841766, y: 0.97075653}
 --- !u!1001 &1081194277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5325,8 +5325,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 3.03125, y: 2.96875}
-      - {x: -3.03125, y: 2.96875}
+    - - {x: 3.1052494, y: 1.4517555}
+      - {x: -2.9572487, y: 1.5257549}
       - {x: -2.9883976, y: -2.8867073}
       - {x: -2.3940067, y: -2.9030647}
       - {x: -2.4025345, y: -1.632864}

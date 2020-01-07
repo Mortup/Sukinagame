@@ -315,7 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   animationsSpeed: 0.6
-  laughProbability: 0.4
+  laughProbability: 0.15
 --- !u!114 &312568484160494957
 MonoBehaviour:
   m_ObjectHideFlags: 0
