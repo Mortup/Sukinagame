@@ -5720,6 +5720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texts:
   - '...'
+  - la bateria
 --- !u!114 &726288804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5814,7 +5815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a115e17fd70054bb1e15917dfb98b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 0.5
+  seconds: 0.7
 --- !u!1 &812767781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 812767781, guid: 67a29a4a0a36ac44a91debca482ad7a7,
