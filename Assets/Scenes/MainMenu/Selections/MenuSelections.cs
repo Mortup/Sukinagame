@@ -22,12 +22,12 @@ public class MenuSelections : MonoBehaviour
     private void Update() {
         image.sprite = selections[currentIndex];
 
-        if (Input.GetAxis("Vertical") > 0.8f && Time.time - lastMoved > 0.2f) {
+        if (Input.GetAxis("Vertical") > 0.3f && Time.time - lastMoved > 0.2f) {
             currentIndex--;
             blipSelectSource.Play();
             lastMoved = Time.time;
         }
-        if (Input.GetAxis("Vertical") < -0.8f && Time.time - lastMoved > 0.2f) {
+        if (Input.GetAxis("Vertical") < -0.3f && Time.time - lastMoved > 0.2f) {
             currentIndex++;
             blipSelectSource.Play();
             lastMoved = Time.time;
